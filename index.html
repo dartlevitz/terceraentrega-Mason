@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta tag descripcion-->
+    <meta name="description" content="Conoce nuestro sitio web y descubre un mundo infinito de posibilidades creativas, sitios web, apps, entrevistas, prototipos, todo en relacion a la experiencia y al diseño centrado en el usuario">
+    <!--meta tag keywords-->
+    <meta name="keywords" content="DISEÑO UX, DISEÑO UI, Desarrollo web, Experiencia de ususario, diseño centrado en el usuario">
+    <link rel="shortcut icon" href="./images/logo_small_icon_only.png" type="image/x-icon">
+    <title>INICIO</title>
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="./images/logo_large.png" class="logo" alt="logo" width="200" height="200"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="./pages/portafolio.html">PORTAFOLIO</a></li>
+                <li><a href="./pages/contacto.html">CONTACTOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Diseñamos Interfaces Minimalistas Que Encantan y Cautivan</h1>
+            <p>
+                Como interfaz de usuario se designa el medio del que se vale una persona para comunicarse con una máquina, dispositivo o computadora. Suelen ser amigables e intuitivos, por lo que son fáciles de entender y utilizar para un usuario. Comprende elementos como los menús, ventanas, teclado, ratón, sonidos de alerta, es decir, todos aquellos canales por medio de los cuales se establece una comunicación efectiva entre el ser humano y la máquina.
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">COMUNICATE</button>
+                <button class="btn-secundario" type ="submit">PORTAFOLIO</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="./images/caratula2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
+                <p>
+                    La experiencia de usuario, también llamada user experience o simplemente UX, se define como el conjunto de factores y elementos relacionados con el proceso de interacción de un usuario respecto a un producto o servicio. A menudo, este concepto se aplica a la interacción con páginas web y aplicaciones.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Diseño UX/UI</h3>
+                    <p>
+                        Transforma tu negocio en un súper producto digital que genere más ingresos, más valor y más confianza para tus clientes y usuarios.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Desarrollo WEB</h3>
+                    <p>
+                        Su página web es el primer punto de contacto con muchos de sus clientes. Te juzgarán en función de la imagen que transmitas. Para dar una primera buena impresión es muy importante tener un diseño web atractivo y bien acabado, que transmita la mejor imagen de tu empresa.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Comercio Digital</h3>
+                    <p>
+                        Te ofrecemos asesoría y apoyo en diferentes aspectos del manejo de tu ecommerce, trabajando contigo codo a codo: implementación de tu sitio, desarrollo evolutivo, soporte, monitoreo y administración de infraestructura.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            Cris Mason UX UI Web Design &copy;Todos los derechos reservados 2021
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>

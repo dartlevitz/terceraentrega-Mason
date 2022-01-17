@@ -1,0 +1,52 @@
+.formulario {
+    margin: 0;
+}
+
+
+.presentacion3 {
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    h2 {
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    input, textarea {
+
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+    }
+    textarea {
+        min-height: 100px;
+        max-height: 400px;
+        max-width: 100%;
+    }
+    .btn-msj {
+        background: #6495ed;
+        color: #fff;
+        padding: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+        
+    }
+}
+@media (max-width: 480px){
+    form {
+        width: 100%;
+    }
+}
